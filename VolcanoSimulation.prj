@@ -1,0 +1,61 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1006649503" file="/Users/gustavocoutino/Documents/MATLAB/VolcanoSimulation.prj" location="/Users/gustavocoutino/Documents/MATLAB" name="VolcanoSimulation" target="target.mlapps" target-name="Package App">
+    <param.appname>VolcanoSimulation</param.appname>
+    <param.authnamewatermark>Gustavo Coutino Ocampo</param.authnamewatermark>
+    <param.email>gcoutino04@gmail.com</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description>Simulation that graphs the trayectory of a proyectile with and without air resistance</param.description>
+    <param.screenshot>/private/var/folders/97/6b5gk2351m15lqfn681pg8tc0000gn/T/tp11970e94_db47_444b_b59f_c48fecc9c6e1.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>4b973ac2-db6d-4ad4-967a-11c3d2e6a56b</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/ui_de_entregable3.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/gustavocoutino/Documents" name="MATLAB" optional="false">/Users/gustavocoutino/Documents/MATLAB</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2022b.app</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>12.3</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
